@@ -10,8 +10,8 @@ var expenses = 200
 var assets = 10000
 var liabilities = ( bills + expenses )
 
-//Networth
+//Calculating Networth
 var Networth = ( assets - liabilities )
 
-
+//Networth
 console.log(Networth)
