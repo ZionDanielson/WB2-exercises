@@ -1,10 +1,10 @@
 "use strict";
 
-var radiussquared = ** 4
-var Math.PI = Math.PI
+var radius = 4
+var MathPI = MathPI
 
-var areaofcircle = ( radiussquared * Math.PI)
+var areaofcircle =  MathPI * (radius ** 2)
 
-console(areaofcircle)
+console.log(areaofcircle)
 
 //Q: pie symbol and

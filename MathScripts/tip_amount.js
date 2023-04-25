@@ -9,3 +9,5 @@ var billTotal = ( foodCost + tax )
 var tip = ( billTotal * .15)
 
 console.log(tip)
+
+//Q: Is there a wayy to round up the tip?
