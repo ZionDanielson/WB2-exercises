@@ -7,5 +7,6 @@ var x2 = 5
 var y2 = 10
 
 var distance = Math.sqrt(
-    (x2 - x1)** + (y2 - y1)**
-)**
+    (x2 - x1)** 
+    + ( y2 - y1 ) **
+) **
