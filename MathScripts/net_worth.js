@@ -3,15 +3,15 @@
 //Calculating Networth
 
 //Liabilities
-var bills = $700
-var expenses = $200
+var bills = 700
+var expenses = 200
 
 //Assets
-var assets = $10000
-var liabilities = ("bills" + "expenses")
+var assets = 10000
+var liabilities = ( bills + expenses )
 
 //Networth
-var Networth = ("assets" - "liabilities")
+var Networth = ( assets - liabilities )
 
 
 console.log(Networth)
