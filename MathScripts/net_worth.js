@@ -1,4 +1,4 @@
-"use sttrict";
+"use strict";
 
 //Calculating Networth
 
