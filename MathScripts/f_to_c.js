@@ -1,7 +1,7 @@
 "use strict";
 
-var F = 75
+var Fahrenheit = 75
 
-var C = (( F - 30 ) /2)
+var Celcius = (( F - 32 ) * 5/9)
 
 console.log(C)
