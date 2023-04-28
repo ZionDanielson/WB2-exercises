@@ -4,30 +4,27 @@
 
 //Single File:
 
-var single = single;        // Single Filer
-var payRate = 500;          // Weekly Pay
-var annualSalary = 26000;   // Annual Income Range 
-var taxRate;
-var weeklyGrossPay = (payRate) + ()
+let single = "Single";        // Single Filer
+let joint = "Joint";
+let basepayRate = 12.50
+let payRate = 500;          // Weekly Pay
+let annualIncomeRangeA = 26000;   // Annual Income Range
+let annualIncomeRangeB = 50000; 
+let taxRate;
+let hoursWorked = 40
+let weeklyGrossPay = (basepayRate * hoursWorked)
+let taxWithholdings = (annualIncomeRangeA || annualIncomeRangeB) * (taxRate)
+let netPay = (weeklyGrossPay * 52) - taxWithholdings
 
 
-var joint = joint;
-
-var annualIncomeRangeA; //single filers
-var annualIncomeRangeB; //joint filers
-
-var taxRate;
 
 var weeklyGrossPayA = (annualIncomeRangeA / 52) * (taxRate)
-
-var hoursWorked;
-var payRate;
 
 
 
 //Single filers:
 
-if       ( single ) { 
+if       ( single ); { 
 
 if       
          ( annualIncomeRangeA < 12000    )   { taxRate = 0.05; }

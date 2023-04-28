@@ -26,7 +26,7 @@ else {
     smallest = c;
   }
 }
-console.log("The smallest number is: " + smallest);
+
 
 // Find the largest number
 let largest;
@@ -46,4 +46,9 @@ else {
     largest = c;
   }
 }
+
+
+// 3. Display Results
+
+console.log("The smallest number is: " + smallest);
 console.log("The largest number is: " + largest);
