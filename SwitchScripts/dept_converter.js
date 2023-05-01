@@ -2,7 +2,7 @@
 
 // 1. Get known variables
 
-let departmentNum = 10;
+let departmentNum = 12;
 let departmentName;
 
 // 2. Calculate the unknown
